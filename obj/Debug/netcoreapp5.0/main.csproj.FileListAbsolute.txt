@@ -1,0 +1,16 @@
+/home/runner/eletjatek/obj/Debug/netcoreapp5.0/main.csprojAssemblyReference.cache
+/home/runner/eletjatek/obj/Debug/netcoreapp5.0/main.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/eletjatek/obj/Debug/netcoreapp5.0/main.AssemblyInfoInputs.cache
+/home/runner/eletjatek/obj/Debug/netcoreapp5.0/main.AssemblyInfo.cs
+/home/runner/eletjatek/obj/Debug/netcoreapp5.0/main.csproj.CoreCompileInputs.cache
+/home/runner/eletjatek/bin/Debug/netcoreapp5.0/main
+/home/runner/eletjatek/bin/Debug/netcoreapp5.0/main.deps.json
+/home/runner/eletjatek/bin/Debug/netcoreapp5.0/main.runtimeconfig.json
+/home/runner/eletjatek/bin/Debug/netcoreapp5.0/main.runtimeconfig.dev.json
+/home/runner/eletjatek/bin/Debug/netcoreapp5.0/main.dll
+/home/runner/eletjatek/bin/Debug/netcoreapp5.0/ref/main.dll
+/home/runner/eletjatek/bin/Debug/netcoreapp5.0/main.pdb
+/home/runner/eletjatek/obj/Debug/netcoreapp5.0/main.dll
+/home/runner/eletjatek/obj/Debug/netcoreapp5.0/ref/main.dll
+/home/runner/eletjatek/obj/Debug/netcoreapp5.0/main.pdb
+/home/runner/eletjatek/obj/Debug/netcoreapp5.0/main.genruntimeconfig.cache
