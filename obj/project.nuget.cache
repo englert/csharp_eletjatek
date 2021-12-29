@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RS3Jxi1iQMFpON7r0nbGOM+0pnTiPqAMwkm10jnwC2hVMWRpyQyKCCVNiGR8rS5ggU70L2wlZJBqJ4prUGCcpg==",
+  "dgSpecHash": "5S+9aLQ02z8etqC5GZoFu1sG/pgq3VA3Bi+zi8jroB8BYz4oeHt9CnObFKomsQEK1cpXyykgMTSkFtk5g/I//w==",
   "success": true,
-  "projectFilePath": "/home/runner/eletjatek/main.csproj",
+  "projectFilePath": "/home/runner/csharpeletjatek/main.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

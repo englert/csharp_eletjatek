@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/eletjatek/main.csproj",
+      "projectUniqueName": "/home/runner/csharpeletjatek/main.csproj",
       "projectName": "main",
-      "projectPath": "/home/runner/eletjatek/main.csproj",
+      "projectPath": "/home/runner/csharpeletjatek/main.csproj",
       "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/eletjatek/obj/",
+      "outputPath": "/home/runner/csharpeletjatek/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/runner/.nuget/NuGet/NuGet.Config"

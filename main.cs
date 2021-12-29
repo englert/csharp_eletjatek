@@ -8,10 +8,10 @@ class EletjatekSzimulator
     private int      OszlopokSzama;   
     private int      SorokSzama;      
    
-    public EletjatekSzimulator(int s, int o)
+    public EletjatekSzimulator(int sorok_szama, int oszlopok_szama)
     {
-        this.OszlopokSzama = o + 2;
-        this.SorokSzama    = s + 2;
+        this.OszlopokSzama = oszlopok_szama + 2;
+        this.SorokSzama    = sorok_szama + 2;
         this.Matrix = new int[SorokSzama, OszlopokSzama];
         
         var rnd = new Random();
@@ -22,7 +22,7 @@ class EletjatekSzimulator
                 Matrix[sor, oszlop] = rnd.Next(0, 2);
             }
         }
-    } //--------- end of method EletjatekSzimulator ---------------------
+    } // --- end of EletjatekSzimulator method ---
 
     private void Megjelenit() 
     {   
@@ -42,7 +42,7 @@ class EletjatekSzimulator
                 }
             }
         }
-    } //--------- end of method Megjelenit ---------------
+    } // --- end of Megjelenit method ---
 
     private int uj_cella_ertek(int sor, int oszlop)
     {   
@@ -54,7 +54,7 @@ class EletjatekSzimulator
         var tuleli      = letezik && (sz == 2 || sz == 3);
         var uj_szuletik = !letezik && sz == 3;
         return tuleli || uj_szuletik ? 1 : 0;
-    } //--------- end of method uj_cella_ertek ---------------------
+    } //--- end of uj_cella_ertek method ---
     
     private void KovetkezoAllapot()
     {
@@ -68,7 +68,7 @@ class EletjatekSzimulator
         }
         Array.Copy(ujmatrix, Matrix, ujmatrix.Length);
        
-    } //--------- end of method KovetkezoAllapot ---------------------
+    } // --- end of KovetkezoAllapot method ---
     
     public void Run() 
     {
@@ -76,9 +76,9 @@ class EletjatekSzimulator
         Megjelenit();
         KovetkezoAllapot();
         System.Threading.Thread.Sleep(500);
-    } //--------- end of method Run ---------------------
+    } // --- end of Run method ---
 
-} // *** end of class EletjatekSzimulator ***
+} // *** end of EletjatekSzimulator class ***
 
 class Program 
 {
@@ -90,5 +90,5 @@ class Program
         {
             m.Run();
         }
-    } //--------- end of method Main ---------------------
-} // *** end of class Program ***
+    } // --- end of method Main ---
+} // *** end of Program class ***
